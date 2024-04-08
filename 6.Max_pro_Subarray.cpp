@@ -17,14 +17,15 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 class Solution {
 public:
   int maxProduct(vector<int> &nums) {
-    int maxPro = nums[0];
-    int curPro = 1;
-
-    for (int n : nums) {
-      curPro = max(curPro, 0);
-      curPro *= n;
-      maxPro = max(maxPro, curPro);
+    int n = nums.size();
+    int max_prod = INT_MIN;
+    for (int i = 0; i < n; i++) {
+      int prod = 1;
+      for (int j = i; j < n; j++) {
+        prod = prod * nums[j];
+        max_prod = max(max_prod, prod);
+      }
     }
-    return maxPro;
+    return max_prod;
   }
 };
