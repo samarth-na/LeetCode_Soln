@@ -1,2 +1,3 @@
 # LeetCode_Soln
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+Collection of LeetCode questions to be solved
+First contains the famous leetcode 75 hard problem in sequenced problem
