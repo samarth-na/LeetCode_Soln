@@ -1,3 +1,12 @@
-# LeetCode_Soln
-Collection of LeetCode questions to be solved
-First contains the famous leetcode 75 hard problem in sequenced problem
+# LeetCode
+
+a repo between two friends who like software, this one is for leetcode practice
+and document the solutions
+
+# naming scheme
+
+{difficulty}-{number of the problem}-{name of the problem}.ext
+
+> difficulty:- easy, medium, hard
+
+eg:- easy-1-twosum
